@@ -289,6 +289,38 @@ nav .nav-a {
     background-color: hsl(30, 100%, 80%, 50%);
 }
 
+.chevron {
+    width: 30px; 
+    height: 30; 
+    margin-top: 0px;
+}
+
+.chevron-wrapper {
+   position: relative; 
+   float: right;
+   margin-left: 20px; 
+  
+}
+
+.accordian {
+    padding-top: 11px; 
+}
+
+#faq-section {
+    margin: 0; 
+    margin-top: 200px; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 75%; 
+    margin: auto; 
+}
+
+
+
+
 /* switching tabs */
 
 .hide {
