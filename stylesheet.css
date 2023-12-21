@@ -115,7 +115,7 @@ nav .nav-a {
 
 #contact-section {
     background-image: url(Photos/flowers.jpg);
-    height: 800px; 
+    height: 900px; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
@@ -123,7 +123,7 @@ nav .nav-a {
 
 .transparent-color {
     background: hsla(32, 72%, 79%, 0.52);
-    height: 800px; 
+    height: 900px; 
 }
 
 .contact-text-container {
@@ -136,7 +136,7 @@ nav .nav-a {
     text-align: center;
     color: black;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 55px;
     padding-top: 70px;
 }
 
@@ -144,12 +144,12 @@ nav .nav-a {
     text-align: center;
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .message-me {
     font-size: 35px; 
-    color: white; 
+    color: black; 
     font-weight: bold; 
 }
 
@@ -157,13 +157,14 @@ nav .nav-a {
     text-align: center; 
 }
 
-#name, #email, #message, #phone {
+.home-contact {
     margin: 8px 0; 
-    width: 500px; 
-    height: 30px; 
+    width: 800px; 
+    height: 50px; 
     outline: none; 
     border: 5px solid hsl(0, 100%, 95%); 
     border-radius: 5px; 
+    font-size: 20px; 
 }
 
 #message {
@@ -179,7 +180,7 @@ nav .nav-a {
 
 .contact-form-button {
     width: 200px; 
-    height: 30px; 
+    height: 45px; 
     background-color: hsl(0, 100%, 80%);
     border: .5px solid white; 
     border-radius: 5px;
@@ -196,17 +197,30 @@ nav .nav-a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
-    height: 700px; 
+    height: 880px; 
     position: relative; 
     top: 50px;  
 }
 
+.contact-idx-input {
+    margin: 8px 0; 
+    width: 800px; 
+    height: 50px; 
+    outline: none; 
+    border: 5px solid hsl(0, 100%, 95%); 
+    border-radius: 5px; 
+    font-size: 20px; 
+}
+
 .transparent-color-idx {
     background: hsla(32, 72%, 79%, 0.52);
-    height: 700px; 
+    height: 880px; 
 }
 
 /* pop up section! */
+#pop-up-section {
+    z-index: 999;
+}
 
 .pop-up-div {
     border: 10px solid rgba(255, 204, 153);
@@ -222,6 +236,7 @@ nav .nav-a {
     top: 550px; 
     right: 5px; 
     position: fixed; 
+    z-index: 999; 
 }
 
 .show {
