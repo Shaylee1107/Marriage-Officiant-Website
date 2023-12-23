@@ -155,6 +155,7 @@ nav .nav-a {
 
 .contact-form {
     text-align: center; 
+    font-weight: bold;
 }
 
 .home-contact {
@@ -357,6 +358,7 @@ nav .nav-a {
     background-color: white; 
     overflow: hidden; 
     background-color: #f1f7f5;
+    display: none; 
 }
 
 .panel p {
