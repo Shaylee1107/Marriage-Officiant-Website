@@ -254,7 +254,7 @@ nav .nav-a {
 }
 
 #services-section {
-    margin-top: 100px; 
+    margin-top: 200px; 
 }
 
 .services-div {
@@ -285,8 +285,8 @@ nav .nav-a {
     margin-bottom: 20px; 
 }
 
-.service-faq {
-    margin-bottom: 50px; 
+#service-faq {
+    margin-bottom: 200px; 
 }
 
 /* faq-index */
