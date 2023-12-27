@@ -54,12 +54,80 @@
         </div>
     </section>
     <section id="faq-section">
-        <div class="faq-div">questions and answers here</div>
-        <div class="faq-div">questions and answers here</div>
-        <div class="faq-div">questions and answers here</div>
-        <div class="faq-div">questions and answers here</div>
-        <div class="faq-div">questions and answers here</div>
-        <div class="faq-div">questions and answers here</div>
+        <div class="wrapper" class="service-faq">
+           <h1>Frequently Asked Questions:</h1>
+
+           <div class="faq">
+                <button class="accordian">
+                    What all does your packages come with?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, repellendus blanditiis illo voluptates inventore quae a accusantium vitae amet soluta ducimus officiis? Eius deserunt cumque magnam placeat soluta quo repellendus!</p>
+                </div>
+           </div>
+
+           <div class="faq">
+                <button class="accordian">
+                    What all does your packages come with?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, repellendus blanditiis illo voluptates inventore quae a accusantium vitae amet soluta ducimus officiis? Eius deserunt cumque magnam placeat soluta quo repellendus!</p>
+                </div>
+           </div>
+       
+
+            <div class="faq">
+                    <button class="accordian">
+                        What all does your packages come with?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="panel">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, repellendus blanditiis illo voluptates inventore quae a accusantium vitae amet soluta ducimus officiis? Eius deserunt cumque magnam placeat soluta quo repellendus!</p>
+                    </div>
+            </div>
+
+            <div class="faq">
+                <button class="accordian">
+                    What all does your packages come with?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, repellendus blanditiis illo voluptates inventore quae a accusantium vitae amet soluta ducimus officiis? Eius deserunt cumque magnam placeat soluta quo repellendus!</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <button class="accordian">
+                    What all does your packages come with?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="panel">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, repellendus blanditiis illo voluptates inventore quae a accusantium vitae amet soluta ducimus officiis? Eius deserunt cumque magnam placeat soluta quo repellendus!</p>
+                </div>
+            </div>
+
+        </div>
+
     </section>
+    <script src="https://kit.fontawesome.com/d15b89a0ad.js" crossorigin="anonymous"></script>
+    <script>
+        let acc = document.getElementsByClassName("accordian");
+    for(let i = 0; i < acc.length; i++){
+        acc[i].addEventListener("click", function(){
+            this.classList.toggle("active");
+            this.parentElement.classList.toggle("active");
+
+            let pannel = this.nextElementSibling;
+
+            if(pannel.style.display === "block"){
+                pannel.style.display = "none";
+            } else {
+                pannel.style.display = "block";
+            }
+    })
+}
+    </script>
 </body>
 </html>
