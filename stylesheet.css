@@ -510,19 +510,19 @@ header {
 
 .design-img {
     display: flex; 
-    position: absolute;
-    left: 0; 
+    left: -30%;
     z-index: 1; 
-    margin-top: 12%;
+    top: 5%; 
     overflow: hidden; 
     object-fit: contain;
-    width: 78.5%; 
-    height: 50%; 
+    width: 120%; 
+    height: 70%; 
 }
 
 .design-img img {
-    width: 200%; 
-    height: auto;  
+    width: 150%; 
+    height: auto;
+    position: absolute;   
 }
 
 #topPage {
