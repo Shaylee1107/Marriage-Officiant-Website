@@ -482,6 +482,7 @@ body {
 
 header {
     width: 40%; 
+    position: fixed;
 }
 
 #my-navbar {
@@ -515,8 +516,8 @@ header {
     top: 5%; 
     overflow: hidden; 
     object-fit: contain;
-    width: 120%; 
-    height: 70%; 
+    width: 108%; 
+    height: 50%; 
 }
 
 .design-img img {
@@ -540,6 +541,43 @@ header {
     text-align: center; 
     padding-left: 5%; 
     padding-right: 5%; 
+    z-index: 2; 
+}
+
+    /* meet lisa section styles */
+
+.meet-lisa {
+    border: 50px solid hsl(30, 100%, 80%, 50%);
+    margin-top: 10%;
+    height: 500px;
+    width: 55%;
+}
+
+.meet-lisa h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.lisa-paragraph {
+    font-size: 1px;
+    position: relative; 
+    text-align: left; 
+    width: 1%; 
+    left: 0; 
+    right: -10%; 
+}
+
+.meet-lisa img {
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+
+.meet-lisa-content {
+    margin: 0 auto;
+    display: block; 
+    height: 500px;  
 }
 }
 
