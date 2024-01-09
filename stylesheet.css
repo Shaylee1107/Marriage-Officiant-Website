@@ -561,14 +561,19 @@ header {
 .lisa-paragraph {
     font-size: 15px;
     position: absolute; 
-    top: 88%;  
     left: -150%; 
     width: 100%; 
     height: 500px; 
 }
 
+.par2 {
+    top: 88%;  
+    padding-left: 5%; 
+    padding-right: 5%; 
+}
+
 .par1 {
-    display: none; 
+    top: 104%; 
 }
 
 .meet-lisa img {
