@@ -460,8 +460,8 @@ nav .nav-a {
 
 /* Media Queries */
 
-@media only screen and (max-width: 600px) {
-    /* Design Section Styles! */
+/* @media only screen and (max-width: 600px) {
+    
    body {
        margin: 0 auto; 
    }
@@ -537,9 +537,9 @@ nav .nav-a {
        padding-right: 5%; 
        z-index: 2; 
    }
-   
-       /* meet lisa section styles */
-   
+    */
+       
+/*    
    .meet-lisa {
        border: 10px solid hsl(30, 100%, 80%, 50%);
        margin-top: 10%;
@@ -583,7 +583,7 @@ nav .nav-a {
        height: 500px; 
        width: 100%;  
    }
-   }
+   } */
    
    /* @media only screen and (min-width: 601px) {
        body {
@@ -613,25 +613,7 @@ nav .nav-a {
    
    
    
-   /* #my-navbar {
-       width: 100%; 
-   }
-   .nav-ul {
-      width: 100%; 
-   }
-   .logo-name {
-       width: 100%; 
-   }
-   .nav-ul {
-       width: 100%; 
-   }
-   .logo {
-       width: 100%; 
-   }
-   header {
-       width: 100%; 
-   } */
-
+  
 
 
 
