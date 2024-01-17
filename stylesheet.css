@@ -457,6 +457,17 @@ nav .nav-a {
     border: none; 
 }
 
+/* rawpixel reference */
+.rawpixel {
+    margin-top: -15px;
+    background-color:  hsl(30, 100%, 80%, 50%);
+    height: 30px; 
+    text-align: center;
+    line-height: 30px;
+    color: black; 
+    font-size: 15px; 
+}
+
 
 /* Media Queries */
 
@@ -476,7 +487,6 @@ nav .nav-a {
    
    header {
        width: 55%; 
-       position: fixed;
    }
    
    #my-navbar {
@@ -537,6 +547,12 @@ nav .nav-a {
        padding-right: 5%; 
        z-index: 2; 
    }
+
+   /* pop-up  div styles */
+
+   .show {
+    display: none;
+  }
    
        /* meet lisa section styles */
    
