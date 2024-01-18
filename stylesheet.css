@@ -486,7 +486,7 @@ nav .nav-a {
    }
    
    header {
-       width: 55%; 
+       width: 55%;  
    }
    
    #my-navbar {
@@ -598,6 +598,20 @@ nav .nav-a {
        display: block; 
        height: 500px; 
        width: 100%;  
+   }
+
+   /* contact section styles  */
+   #contact-section {
+    width: 77%; 
+   }
+
+   .home-contact{
+    width: 300px; 
+    font-size: 15px; 
+   }
+
+   .rawpixel{
+    width: 77%; 
    }
    }
    
