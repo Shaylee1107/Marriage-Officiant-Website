@@ -468,6 +468,17 @@ nav .nav-a {
     font-size: 15px; 
 }
 
+/* hamburger menu */
+#hamburger-menu {
+    /* display: none;  */
+    background-color: white; 
+    display: block;
+}
+
+.hamburger-nav-ul {
+    display: block; 
+}
+
 
 /* Media Queries */
 
