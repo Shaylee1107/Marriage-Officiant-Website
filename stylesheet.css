@@ -499,7 +499,7 @@ nav .nav-a {
    
    .logo i {
        display: block;  
-       margin-left: 5%; 
+       margin-left: 15%; 
        padding-left: 10%; 
        padding-right: 0; 
        position: relative;  
@@ -559,7 +559,6 @@ nav .nav-a {
        border: 10px solid hsl(30, 100%, 80%, 50%);
        margin-top: 10%;
        height: 600px;
-       width: 73%;
    }
    
    .meet-lisa h1 {
@@ -570,19 +569,18 @@ nav .nav-a {
    .lisa-paragraph {
        font-size: 13px;
        position: absolute; 
-       left: -130%; 
-       width: 70%; 
+       left: -130%;  
        height: 500px; 
        padding-left: 1%; 
-       padding-right: 1%; 
+       padding-right: 3%; 
    }
    
    .par2 {
-       top: 88%;  
+       top: 110%;  
    }
    
    .par1 {
-       top: 104%; 
+       top: 123%; 
    }
    
    .meet-lisa img {
@@ -600,18 +598,18 @@ nav .nav-a {
    }
 
    /* contact section styles  */
-   #contact-section {
-    width: 77%; 
-   }
+   /* #contact-section {
+   
+   } */
 
    .home-contact{
     width: 300px; 
     font-size: 15px; 
    }
 
-   .rawpixel{
+   /* .rawpixel{
     width: 77%; 
-   }
+   } */
    }
    
    /* @media only screen and (min-width: 601px) {
