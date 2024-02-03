@@ -7,7 +7,7 @@ const rawpixelSection = document.getElementById('rawpixel-section');
 const designImg = document.getElementById('main-img');
 const designText = document.getElementById('design-text-container');
 const body = document.querySelector('body');
-const htmlBurgerDiv = document.getElementsByClassName('hamburger-div');
+const htmlBurgerDiv = document.querySelectorAll('hamburger-div');
 
 
 hamburger.addEventListener('click', function(){
@@ -15,7 +15,7 @@ hamburger.addEventListener('click', function(){
     const myDiv = document.createElement("div");
     myDiv.classList.add('myBurger');
     header.append(myDiv);
-    htmlBurgerDiv.classList.remove('hide');
     myDiv.append(htmlBurgerDiv);
+    htmlBurgerDiv.classList.remove('hidden');
 
 });

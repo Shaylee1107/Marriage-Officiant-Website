@@ -478,9 +478,7 @@ nav .nav-a {
     display: block; 
 }
 
-.hide {
-    display: none; 
-}
+
 
 
 /* Media Queries */
@@ -659,7 +657,9 @@ nav .nav-a {
        }
    } */
    
-   
+.hidden {
+    display: none; 
+}
    
    
    
