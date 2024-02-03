@@ -11,11 +11,42 @@ const htmlBurgerDiv = document.querySelectorAll('hamburger-div');
 
 
 hamburger.addEventListener('click', function(){
+    const nav = document.createElement("nav");
+    const ul = document.createElement("ul");
+    const homeLi = document.createElement("li");
+    const servicesLi = document.createElement("li");
+    const contactLi = document.createElement("li");
+    const faqLi = document.createElement("li");
+    
+
     console.log('clicked');
     const myDiv = document.createElement("div");
     myDiv.classList.add('myBurger');
+
     header.append(myDiv);
-    myDiv.append(htmlBurgerDiv);
-    htmlBurgerDiv.classList.remove('hidden');
+    myDiv.append(nav);
+    nav.append(ul);
+    ul.append(homeLi);
+    ul.append(servicesLi);
+    ul.append(contactLi);
+    ul.append(faqLi);
+
+    homeLi.setAttribute("class", "nav-a");
+    servicesLi.setAttribute("class", "nav-a");
+    contactLi.setAttribute("class", "nav-a");
+    faqLi.setAttribute("class", "nav-a");
+
+    const homeNode = document.createTextNode("Home");
+    const servicesNode = document.createTextNode("Services");
+    const contactNode = document.createTextNode("Contact");
+    const faqNode = document.createTextNode("faq");
+
+    homeLi.append(homeNode);
+    servicesLi.append(servicesNode);
+    contactLi.append(contactNode);
+    faqLi.append(faqNode);
+
+    
+
 
 });
