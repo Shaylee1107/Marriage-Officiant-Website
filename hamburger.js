@@ -11,6 +11,10 @@ const htmlBurgerDiv = document.querySelectorAll('hamburger-div');
 
 
 hamburger.addEventListener('click', function(){
+    console.log('clicked');
+    const myDiv = document.createElement("div");
+    myDiv.classList.add('myBurger');
+  
     const nav = document.createElement("nav");
     const ul = document.createElement("ul");
     const homeLi = document.createElement("li");
@@ -18,11 +22,6 @@ hamburger.addEventListener('click', function(){
     const contactLi = document.createElement("li");
     const faqLi = document.createElement("li");
     
-
-    console.log('clicked');
-    const myDiv = document.createElement("div");
-    myDiv.classList.add('myBurger');
-
     header.append(myDiv);
     myDiv.append(nav);
     nav.append(ul);
@@ -46,7 +45,15 @@ hamburger.addEventListener('click', function(){
     contactLi.append(contactNode);
     faqLi.append(faqNode);
 
-    
+    function toggle() {
+        if(myDiv.classList.contains('present')){
+            myDiv.classList.add('hidden')
+        } else {
+            myDiv.classList.remove('hidden');
+        }
+     }
+    toggle();
+    myDiv.setAttribute('class', 'present');
+    })
 
 
-});
