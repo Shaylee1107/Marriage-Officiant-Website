@@ -21,14 +21,11 @@ hamburger.addEventListener('click', function(){
     const servicesLi = document.createElement("li");
     const contactLi = document.createElement("li");
     const faqLi = document.createElement("li");
-    
-    header.append(myDiv);
-    myDiv.append(nav);
-    nav.append(ul);
-    ul.append(homeLi);
-    ul.append(servicesLi);
-    ul.append(contactLi);
-    ul.append(faqLi);
+
+    homeLi.setAttribute("href", "#topPage");
+    servicesLi.setAttribute("href", "servicesIndex.html");
+    contactLi.setAttribute("href", "contact.html");
+    faqLi.setAttribute("href", "faq.html");
 
     homeLi.setAttribute("class", "nav-a");
     servicesLi.setAttribute("class", "nav-a");
@@ -45,18 +42,33 @@ hamburger.addEventListener('click', function(){
             console.log('present!')
             myDiv.classList.add('hidden')
             myDiv.removeAttribute('name');
+
+            document.getElementById("myDiv").removeChild(document.getElementById("nav"));
+
         } else {
             console.log('no present!')
             myDiv.setAttribute('name', 'present');
             myDiv.classList.remove('hidden');
+
             homeLi.append(homeNode);
             servicesLi.append(servicesNode);
             contactLi.append(contactNode);
             faqLi.append(faqNode);
+
+            header.append(myDiv);
+            myDiv.append(nav);
+            nav.append(ul);
+            ul.append(homeLi);
+            ul.append(servicesLi);
+            ul.append(contactLi);
+            ul.append(faqLi);
         }
      }
+
+     myDiv.setAttribute('id', 'myDiv');
+     nav.setAttribute('id', 'nav');
     toggleHidden();
-  
+
     })
 
 
