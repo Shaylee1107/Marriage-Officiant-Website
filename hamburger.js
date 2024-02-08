@@ -8,11 +8,11 @@ const designImg = document.getElementById('main-img');
 const designText = document.getElementById('design-text-container');
 const body = document.querySelector('body');
 const htmlBurgerDiv = document.querySelectorAll('hamburger-div');
+const myDiv = document.createElement("div");
 
 
 hamburger.addEventListener('click', function(){
     console.log('clicked');
-    const myDiv = document.createElement("div");
     myDiv.classList.add('myBurger');
   
     const nav = document.createElement("nav");
@@ -40,20 +40,23 @@ hamburger.addEventListener('click', function(){
     const contactNode = document.createTextNode("Contact");
     const faqNode = document.createTextNode("faq");
 
-    homeLi.append(homeNode);
-    servicesLi.append(servicesNode);
-    contactLi.append(contactNode);
-    faqLi.append(faqNode);
-
-    function toggle() {
-        if(myDiv.classList.contains('present')){
+    function toggleHidden() {
+        if(myDiv.hasAttribute('name') === true){
+            console.log('present!')
             myDiv.classList.add('hidden')
+            myDiv.removeAttribute('name');
         } else {
+            console.log('no present!')
+            myDiv.setAttribute('name', 'present');
             myDiv.classList.remove('hidden');
+            homeLi.append(homeNode);
+            servicesLi.append(servicesNode);
+            contactLi.append(contactNode);
+            faqLi.append(faqNode);
         }
      }
-    toggle();
-    myDiv.setAttribute('class', 'present');
+    toggleHidden();
+  
     })
 
 
