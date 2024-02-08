@@ -22,15 +22,22 @@ hamburger.addEventListener('click', function(){
     const contactLi = document.createElement("li");
     const faqLi = document.createElement("li");
 
-    homeLi.setAttribute("href", "#topPage");
-    servicesLi.setAttribute("href", "servicesIndex.html");
-    contactLi.setAttribute("href", "contact.html");
-    faqLi.setAttribute("href", "faq.html");
-
     homeLi.setAttribute("class", "nav-a");
     servicesLi.setAttribute("class", "nav-a");
     contactLi.setAttribute("class", "nav-a");
     faqLi.setAttribute("class", "nav-a");
+
+
+    const homeA = document.createElement("a");
+    const contactA = document.createElement("a");
+    const servicesA = document.createElement("a");
+    const faqA = document.createElement("a");
+
+    homeA.setAttribute("href", "#topPage");
+    servicesA.setAttribute("href", "servicesIndex.html");
+    contactA.setAttribute("href", "contact.html");
+    faqA.setAttribute("href", "faq.html");
+
 
     const homeNode = document.createTextNode("Home");
     const servicesNode = document.createTextNode("Services");
@@ -50,10 +57,25 @@ hamburger.addEventListener('click', function(){
             myDiv.setAttribute('name', 'present');
             myDiv.classList.remove('hidden');
 
-            homeLi.append(homeNode);
-            servicesLi.append(servicesNode);
-            contactLi.append(contactNode);
-            faqLi.append(faqNode);
+            homeLi.classList.add('hamburger-lis');
+            servicesLi.classList.add('hamburger-lis');
+            contactLi.classList.add('hamburger-lis');
+            faqLi.classList.add('hamburger-lis');
+
+            homeA.classList.add('hamburger-as');
+            servicesA.classList.add('hamburger-as');
+            contactA.classList.add('hamburger-as');
+            faqA.classList.add('hamburger-as');
+
+            homeLi.append(homeA);
+            servicesLi.append(servicesA);
+            contactLi.append(contactA);
+            faqLi.append(faqA);
+
+            homeA.append(homeNode);
+            servicesA.append(servicesNode);
+            contactA.append(contactNode);
+            faqA.append(faqNode);
 
             header.append(myDiv);
             myDiv.append(nav);
