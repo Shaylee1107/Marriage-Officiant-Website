@@ -84,6 +84,11 @@ hamburger.addEventListener('click', function(){
             ul.append(servicesLi);
             ul.append(contactLi);
             ul.append(faqLi);
+
+            homeA.addEventListener('touchend', function(){
+                console.log('button clicked');
+                homeLi.classList.add('hamburger-btn-clicked');
+            });
         }
      }
 
