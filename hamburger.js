@@ -85,9 +85,24 @@ hamburger.addEventListener('click', function(){
             ul.append(contactLi);
             ul.append(faqLi);
 
-            homeA.addEventListener('touchend', function(){
+            homeA.addEventListener('touchstart', function(){
                 console.log('button clicked');
-                homeLi.classList.add('hamburger-btn-clicked');
+                homeA.classList.add('hamburger-btn-clicked');
+            });
+
+            servicesA.addEventListener('touchstart', function(){
+                console.log('button clicked');
+                servicesA.classList.add('hamburger-btn-clicked');
+            });
+
+            contactA.addEventListener('touchstart', function(){
+                console.log('button clicked');
+                contactA.classList.add('hamburger-btn-clicked');
+            });
+
+            faqA.addEventListener('touchstart', function(){
+                console.log('button clicked');
+                faqA.classList.add('hamburger-btn-clicked');
             });
         }
      }
