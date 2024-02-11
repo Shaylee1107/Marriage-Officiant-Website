@@ -33,7 +33,7 @@ hamburger.addEventListener('click', function(){
     const servicesA = document.createElement("a");
     const faqA = document.createElement("a");
 
-    homeA.setAttribute("href", "#topPage");
+    homeA.setAttribute("href", "index.html");
     servicesA.setAttribute("href", "servicesIndex.html");
     contactA.setAttribute("href", "contact.html");
     faqA.setAttribute("href", "faq.html");
