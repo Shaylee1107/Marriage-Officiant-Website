@@ -24,8 +24,9 @@ header {
 
 .logo-name {
     font-family: 'Roboto', sans-serif;
-font-family: 'Sacramento', cursive;
-font-family: 'Sanchez', serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Sanchez', serif;
+    font-weight: bold; 
 }
 
 #my-navbar {
@@ -64,15 +65,34 @@ nav .nav-a {
 }
 
 .design-text-container {
-    margin-left: 135px;
+    margin-left: 80px;
     margin-right: 110px;
-    padding-top: 9%;
-    color: white;
+    padding-top: 8%;
+    color: black;
+    font-size: 30px;
+    text-align: center; 
     font-family: 'Roboto', sans-serif;
     font-family: 'Sacramento', cursive;
-    font-size: 27px;
-    text-align: center; 
+    /* -webkit-text-stroke-width: 0.000000000000000000000000000000000000000000001px;
+    -webkit-text-stroke-color: black; */
 }
+
+.sofia-regular {
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.cursive {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size: 35px; 
+}
+  
+  
+  
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive; */
 
 .design-img {
     display: flex; 
@@ -152,9 +172,11 @@ nav .nav-a {
 }
 
 .message-me {
-    font-size: 20px; 
+    font-size: 35px; 
     color: black; 
     font-weight: bold; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
 }
 
 .contact-form {
@@ -169,7 +191,11 @@ nav .nav-a {
     outline: none; 
     border: 5px solid hsl(0, 100%, 95%); 
     border-radius: 5px; 
-    font-size: 15px; 
+    font-size: 17px; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Sanchez', serif;
+    font-weight: bold; 
 }
 
 #message {
@@ -354,6 +380,12 @@ nav .nav-a {
     margin-top: 800px; 
     margin-bottom: 200px; 
     position: relative; 
+}
+
+.faq-title {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size: 45px; 
 }
 
 .faq-div {
@@ -545,8 +577,8 @@ nav .nav-a {
    }
    
    .design-text-container {
-       margin-top: 80%; 
-       font-size: 20px; 
+       margin-top: 105%; 
+       font-size: 23px; 
        left: 0; 
        position: relative; 
        margin-left: 0; 
@@ -635,6 +667,10 @@ nav .nav-a {
     font-size: 25px; 
     text-align: center; 
     padding-right: 25px; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Sanchez', serif;
+    font-weight: bold; 
    }
 
    .hamburger-as {
