@@ -614,9 +614,11 @@ nav .nav-a {
    } */
 
    .home-contact{
-    width: 300px; 
-    font-size: 15px; 
+    width: 350px; 
+    font-size: 18px; 
    }
+
+  
 
    /* hamburger menu */
    .myBurger {
@@ -702,6 +704,28 @@ nav .nav-a {
     margin-left: -40px; 
     margin-right: -40px;
   }
+
+  /* CONTACT */
+  .contact-idx-input {
+    width: 350px; 
+    font-size: 18px;
+  }
+
+  .transparent-color-idx {
+    height: 846px;
+  }
+
+  .contact-section-idx {
+    height: 846px;
+  }
+
+  .contact-text-container {
+    padding-top: 50px;
+  }
+
+  .home-contact-container {
+    padding-top: 0;
+   }
    }
    
    /* @media only screen and (min-width: 601px) {
