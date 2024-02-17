@@ -538,7 +538,6 @@ nav .nav-a {
    .design-img img {
        width: 200%; 
        height: auto;
-       /* position: absolute;    */
    }
    
    #topPage {
@@ -644,6 +643,65 @@ nav .nav-a {
    .hamburger-btn-clicked {
     color: white; 
    }
+
+   /* SERVICES */
+   .services-div {
+    width: 360px;
+    margin-bottom: 80px;
+   }
+
+   .services-ul {
+    margin-left: 75px; 
+   }
+
+   .men-img img {
+    width: 300px;
+   }
+
+   .men-img {
+    margin-left: 10px;
+    top: 590px; 
+    height: 200px;
+    overflow: hidden; 
+    border-bottom: 10px solid white; 
+    border-radius: 10px;
+   }
+
+   .women-img img {
+    width: 250px; 
+   }
+
+   .women-img {
+    top: 80px; 
+    right: 0;
+    left: 10px;  
+   }
+
+   .couple-img img {
+    width: 250px; 
+   }
+
+   .couple-img {
+    top: 320px; 
+    margin-left: 135px;
+   }
+
+   .outside-img {
+    display: none; 
+   }
+
+   .services-container {
+    margin-top: -20px; 
+   }
+
+   #service-faq {
+    margin-top: -90px;
+   }
+
+  .faq {
+    margin-left: -40px; 
+    margin-right: -40px;
+  }
    }
    
    /* @media only screen and (min-width: 601px) {
