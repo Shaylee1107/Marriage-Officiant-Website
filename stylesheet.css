@@ -695,7 +695,7 @@ nav .nav-a {
    /* SERVICES */
    .services-div {
     width: 360px;
-    margin-bottom: 80px;
+    margin-bottom: 220px;
    }
 
    .services-ul {
@@ -707,9 +707,9 @@ nav .nav-a {
    }
 
    .men-img {
-    margin-left: 10px;
-    top: 590px; 
-    height: 200px;
+    margin-left: 45px;
+    top: 1035px; 
+    height: 175px;
     overflow: hidden; 
     border-bottom: 10px solid white; 
     border-radius: 10px;
@@ -721,8 +721,7 @@ nav .nav-a {
 
    .women-img {
     top: 80px; 
-    right: 0;
-    left: 10px;  
+    left: 75px;  
    }
 
    .couple-img img {
@@ -730,8 +729,8 @@ nav .nav-a {
    }
 
    .couple-img {
-    top: 320px; 
-    margin-left: 135px;
+    top: 555px; 
+    margin-left: 75px;
    }
 
    .outside-img {
@@ -739,7 +738,7 @@ nav .nav-a {
    }
 
    .services-container {
-    margin-top: -20px; 
+    margin-top: 280px; 
    }
 
    #service-faq {
@@ -750,6 +749,10 @@ nav .nav-a {
     margin-left: -40px; 
     margin-right: -40px;
   }
+
+  .all-imgs {
+    width: 500px; 
+   }
 
   /* CONTACT */
   .contact-idx-input {
