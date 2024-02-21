@@ -73,8 +73,6 @@ nav .nav-a {
     text-align: center; 
     font-family: 'Roboto', sans-serif;
     font-family: 'Sacramento', cursive;
-    /* -webkit-text-stroke-width: 0.000000000000000000000000000000000000000000001px;
-    -webkit-text-stroke-color: black; */
 }
 
 .sofia-regular {
@@ -88,11 +86,6 @@ nav .nav-a {
     font-family: 'Sacramento', cursive;
     font-size: 35px; 
 }
-  
-  
-  
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Sacramento', cursive; */
 
 .design-img {
     display: flex; 
@@ -222,6 +215,10 @@ font-family: 'Sacramento', cursive; */
     top: 0; 
 }
 
+.contact-form-button:hover {
+    background-color: hsl(0, 100%, 70%)
+}
+
 /*contact.html section styles*/
 .contact-section-idx {
     background-image: url(Photos/flowers.jpg);
@@ -276,6 +273,17 @@ font-family: 'Sacramento', cursive; */
 
 .pop-up {
     display: none;
+}
+
+#the-button {
+    background-color: rgba(255, 204, 153);
+    color: black; 
+    border: none; 
+    padding: 5px 10px; 
+}
+
+#the-button:hover {
+    outline: 2px solid black; 
 }
 
 /* services section */
@@ -383,9 +391,11 @@ font-family: 'Sacramento', cursive; */
 }
 
 .faq-title {
+    font-size: 30px; 
     font-family: 'Roboto', sans-serif;
     font-family: 'Sacramento', cursive;
-    font-size: 45px; 
+    font-family: 'Sanchez', serif;
+    font-weight: bold; 
 }
 
 .faq-div {
