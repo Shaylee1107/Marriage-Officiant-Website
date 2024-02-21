@@ -298,7 +298,7 @@ nav .nav-a {
 
 .couple-img {
     position: absolute;
-    margin-left: 40px; 
+    left: 40px; 
     top: 150px; 
 }
 
@@ -580,14 +580,23 @@ nav .nav-a {
    .design-img img {
        width: 200%; 
        height: auto;
+       margin-bottom: 20px;
    }
    
    #topPage {
        display: none; 
    }
+
+   .design-title {
+    margin-bottom: 0px; 
+   }
+
+   .design-info {
+    margin-top: 0px; 
+   }
    
    .design-text-container {
-       margin-top: 105%; 
+       margin-top: 107%; 
        font-size: 23px; 
        left: 0; 
        position: relative; 
@@ -655,6 +664,10 @@ nav .nav-a {
    
    } */
 
+   #contact-section {
+    margin-top: -3%;
+   }
+
    .home-contact{
     width: 350px; 
     font-size: 18px; 
@@ -707,12 +720,12 @@ nav .nav-a {
    }
 
    .men-img {
-    margin-left: 45px;
-    top: 1035px; 
+    text-align: center;
     height: 175px;
-    overflow: hidden; 
-    border-bottom: 10px solid white; 
+    overflow: hidden;
+    border-bottom: 10px solid white;
     border-radius: 10px;
+    margin-left: unset;
    }
 
    .women-img img {
@@ -720,8 +733,12 @@ nav .nav-a {
    }
 
    .women-img {
-    top: 80px; 
-    left: 75px;  
+    text-align: center;
+    top: 80px;  
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
    }
 
    .couple-img img {
@@ -729,8 +746,12 @@ nav .nav-a {
    }
 
    .couple-img {
+    text-align: center; 
     top: 555px; 
-    margin-left: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
    }
 
    .outside-img {
@@ -752,6 +773,18 @@ nav .nav-a {
 
   .all-imgs {
     width: 500px; 
+   }
+
+   .exp-div {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 175px;
+    width: 320px;
+    top: 485px;
    }
 
   /* CONTACT */
@@ -776,20 +809,29 @@ nav .nav-a {
     padding-top: 0;
    }
    }
+
+   /* @media only screen and (max-width: 599px) {
+    .lisa-paragraph {
+        position: relative;
+    }
+
+    .par1 {
+        top: 90%;
+    }
+} */
    
-   /* @media only screen and (min-width: 601px) {
-       body {
+   @media only screen and (min-width: 601px) {
+       /* body {
            background-color: blue; 
-       }
+       } */
    }
    
-   @media only screen and (min-width: 768px) {
-       body {
-           background-color: pink; 
-       }
-   }
+/* IPAD MINI */
+    @media only screen and (min-width: 768px) {
+      
+   } 
    
-   @media only screen and (min-width: 992px) {
+   /* @media only screen and (min-width: 992px) {
        body {
            background-color: red; 
        }
@@ -797,10 +839,10 @@ nav .nav-a {
    
    @media only screen and (min-width: 1200px) {
        body {
-           background-color: white; 
+           background-color: black; 
        }
-   } */
-   
+   }  */
+    
 .hidden {
     display: none; 
 }
