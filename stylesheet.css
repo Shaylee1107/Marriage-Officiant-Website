@@ -810,7 +810,7 @@ nav .nav-a {
    }
    }
 
-   /* @media only screen and (max-width: 599px) {
+   @media only screen and (max-width: 413px) {
     .lisa-paragraph {
         position: relative;
     }
@@ -818,7 +818,11 @@ nav .nav-a {
     .par1 {
         top: 90%;
     }
-} */
+
+    body {
+        background-color: black; 
+    }
+}
    
    @media only screen and (min-width: 601px) {
        /* body {
