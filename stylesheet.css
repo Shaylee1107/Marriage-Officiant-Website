@@ -810,17 +810,168 @@ nav .nav-a {
    }
    }
 
-   @media only screen and (max-width: 413px) {
+   @media only screen and (max-width: 389px) {
+     /*---------------- HOME ----------------*/
+
+     /* burger */
+    #nav {
+        margin-top: -20px;
+    }
+
+    .myBurger {
+        top: 60px;
+    }
+
+    .logo i {
+        margin-left: 10%; 
+    }
+
+    /* design section */
+    .design-img img {
+        width: 165%;
+    }
+
+    .design-img {
+        left: -33%;
+    }
+
+    .design-text-container {
+        margin-top: 114%;
+    }
+
+    /* meet lisa */
     .lisa-paragraph {
-        position: relative;
+        height: 160px;
+        margin-left: 510px;
     }
 
     .par1 {
-        top: 90%;
+        top: 50%;
+        margin-top: 650px;
     }
 
-    body {
-        background-color: black; 
+    .par2 {
+        margin-top: 370px;
+    }
+
+    /* contact */
+    .contact-h1 {
+        font-size: 30px;
+    }
+
+    .contact-line {
+        margin: 10px 0px; 
+    }
+
+    .message-me {
+        margin: 20px 0px; 
+        font-size: 33px; 
+    }
+
+    .home-contact {
+        width: 330px;
+        font-size: 17px; 
+    }
+
+    .transparent-color {
+        height: 610px;
+    }
+
+    #contact-section {
+        height: 610px;
+    }
+
+    /* rawpixel */
+
+    .pixel {
+        font-size: 16px;
+    }
+
+    /*---------------- SERVICES ----------------*/
+
+    .services-div {
+        width: 345px;
+    }
+
+    .services-ul {
+        margin-left: 35px;
+    }
+
+    #faq-section {
+        height: 700px;
+    }
+
+    /*---------------- CONTACT ----------------*/
+    .contact-section-idx {
+        margin-top: -10px;
+        height: 610px;
+    }
+
+    .transparent-color-idx {
+        height: 610px;
+    }
+
+    .contact-idx{
+        padding: 0;
+    }
+
+    .contact-idx-input {
+        width: 330px;
+        font-size: 17px; 
+    }
+
+/*---------------- FAQ SECTION ----------------*/
+
+#faq-section {
+    margin-top: 90px;
+}
+
+}
+
+@media only screen and (max-width: 390px) {
+   /*---------------- HOME ----------------*/
+
+   /* burger */
+   .myBurger {
+    top: 62px;
+   }
+
+   #nav {
+    margin-top: -15px;
+   }
+
+   .logo i {
+    margin-left: 10%;
+   }
+
+   /* design section */
+   #design-text-container {
+    margin-top: 111%;
+   }
+
+   /* meet lisa */
+    .lisa-paragraph {
+        margin-left: 530px;
+        margin-right: 11px;
+    }
+   .par2 {
+    top: 129%; 
+   }
+
+   .par1 {
+    top: 115%;
+   }
+
+     /* rawpixel */
+
+     .pixel {
+        font-size: 16px;
+    }
+
+/*---------------- SERVICES ----------------*/
+
+    .services-ul {
+        margin-left: 50px;
     }
 }
    
