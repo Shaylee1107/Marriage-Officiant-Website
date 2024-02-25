@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&family=Sanchez&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <body>
         <header>
             <div class="logo">
-                <img alt="Rings Logo" src="Photos/image-from-rawpixel-id-12074758-original.png">
+                <img alt="Rings Logo" src="Photos/resizing-ring.png">
                 <h1 class="logo-name">Lisa Copeland</h1>
+                <i id="hamburger" class="fa-solid fa-bars fa-xl" style="color: #010204;"></i>
             </div>
             <nav id="my-navbar">
                 <ul class="nav-ul">
-                    <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
-                    <li class="nav-li"><a class="nav-a" href="servicesIndex.html">Services</a></li>
-                    <li class="nav-li"><a class="nav-a" href="#contact-section">Contact</a></li>
-                    <li class="nav-li"><a class="nav-a" href="faq.html">FAQ</a></li>
+                    <li class="nav-li"><a class="nav-a logo-name" href="index.html">Home</a></li>
+                    <li class="nav-li"><a class="nav-a logo-name" href="servicesIndex.html">Services</a></li>
+                    <li class="nav-li"><a class="nav-a logo-name" href="#contact-section">Contact</a></li>
+                    <li class="nav-li"><a class="nav-a logo-name" href="faq.html">FAQ</a></li>
                 </ul>
             </nav>
         </header>
         <section class="contact-section-idx">
             <div class="transparent-color-idx">
-                <div class="contact-text-container">
+                <div class="contact-text-container contact-idx logo-name">
                     <h1 class="contact-h1">Contact</h1>
                     <p class="contact-line">Phone: 555-555-5555</p>
                     <p class="contact-line">Email: lisa@gmail.com</p>
@@ -41,23 +42,34 @@
                     <h3 class="message-me">Send me a Message!</h3>
                     <form>
                         <label for="name"></label>
-                        <input class="contact-idx-input" type="text" name="name" id="name" placeholder="First and Last Name" required><br>
+                        <input class="contact-idx-input logo-name" type="text" name="name" id="name" placeholder="First and Last Name" required><br>
     
                         <label for="phone"></label>
-                        <input  class="contact-idx-input" name="phone" id="phone" type="tel" placeholder="123-456-7897" required><br>
+                        <input  class="contact-idx-input logo-name" name="phone" id="phone" type="tel" placeholder="123-456-7897" required><br>
     
                         <label for="email"></label>
-                        <input class="contact-idx-input" type="email" name="email" id="email" placeholder="YourEmail@gmail.com" required><br>
+                        <input class="contact-idx-input logo-name" type="email" name="email" id="email" placeholder="YourEmail@gmail.com" required><br>
     
                         <label for="message" class="message-label"></label>
-                        <textarea class="contact-idx-input" type="textarea" name="message" id="message" placeholder="Message"></textarea><br>
+                        <textarea class="contact-idx-input logo-name" type="textarea" name="message" id="message" placeholder="Message"></textarea><br>
     
-                        <button type="submit" class="contact-form-button">Send Message</button>
+                        <button type="submit" class="contact-form-button logo-name">Send Message</button>
                     </form>
                 </div>
             </div>
         </section>
+
+        <section id="pop-up-section" class="pop-up">
+            <div class = "pop-up-div logo-name">
+                <p>Thank you for visiting.</p>
+                <p>Send me a message so we can chat!</p>
+                <p>I look forward to hearing from you!</p>
+                <button id="the-button" class="logo-name">Okay!</button>
+            </div>
+        </section>
         <script src="app.js"></script>
+        <script src="hamburger.js"></script>
+        <script src="https://kit.fontawesome.com/d15b89a0ad.js" crossorigin="anonymous"></script>
     </body>
     </html>
 </body>

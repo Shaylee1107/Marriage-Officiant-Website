@@ -4,52 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lisa Marriage Officiant</title>
-    <link rel="media Queries Stylesheet" href="mediaQueries.css">
     <link rel="stylesheet" href="stylesheet.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&family=Sanchez&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img alt="Rings Logo" src="Photos/image-from-rawpixel-id-12074758-original.png">
+            <img alt="Rings Logo" src="Photos/resizing-ring.png">
             <h1 class="logo-name">Lisa Copeland</h1>
-            <i class="fa-solid fa-bars fa-xl" style="color: #010204;"></i>
+            <i id="hamburger" class="fa-solid fa-bars fa-xl" style="color: #010204;"></i>
         </div>
         <nav id="my-navbar">
             <ul class="nav-ul">
-                <li class="nav-li"><a class="nav-a" href="#topPage">Home</a></li>
-                <li class="nav-li"><a class="nav-a" href="servicesIndex.html">Services</a></li>
-                <li class="nav-li"><a class="nav-a" href="contact.html">Contact</a></li>
-                <li class="nav-li"><a class="nav-a" href="faq.html">FAQ</a></li>
+                <li class="nav-li"><a class="nav-a logo-name" href="#topPage">Home</a></li>
+                <li class="nav-li"><a class="nav-a logo-name" href="servicesIndex.html">Services</a></li>
+                <li class="nav-li"><a class="nav-a logo-name" href="contact.html">Contact</a></li>
+                <li class="nav-li"><a class="nav-a logo-name" href="faq.html">FAQ</a></li>
             </ul>
         </nav>
     </header>
     <section id="topPage">.</section>
     <section id="section-design">
-        <div class="design-text-container">
+        <div id="design-text-container" class="design-text-container">
             <h1 class="design-title">Wedding Officiant</h1>
-            <h2 class="design-info">A special time for a special day</h2>
+            <h2 class="design-info">A special memory on your special day</h2>
         </div>
-        <div class="design-img">
-            <img alt="married couple" src="photos/image-from-rawpixel-id-3915695-jpeg.jpg">
+        <div class="design-img" id="design-img">
+            <img id="main-img" alt="married couple" src="Photos/main.jpg">
         </div>
     </section>
-    <section class="meet-lisa">
+    <section id="meet-lisa" class="meet-lisa logo-name">
         <div class="meet-lisa-content">
             <h1>Meet Lisa!</h1>
-            <img rel="lisa headshot" src="photos/headshot.jpg">
-            <p class="lisa-paragraph par1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptatem mollitia laborum inventore consequatur perferendis aspernatur vitae hic nam id expedita eveniet, fugit est libero excepturi possimus voluptates accusantium facere? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eveniet pariatur commodi sunt, consequatur dolor totam vel dicta quisquam minus accusantium sint facere modi repellat similique eligendi aspernatur inventore aut.</p>
-            <p class="lisa-paragraph par2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita veritatis pariatur repellendus ut! Eius, tempore obcaecati deleniti, possimus quos repellat ex libero quo harum reiciendis quasi, optio eum distinctio consequuntur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores architecto minima ea magnam, veritatis eveniet illo quia nobis quas esse assumenda aperiam harum est vel in laboriosam quibusdam quaerat eum?</p>
+            <img rel="lisa headshot" alt="headshot" src="Photos/headshot.jpg">
+            <p class="lisa-paragraph par1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptatem mollitia laborum inventore consequatur perferendis aspernatur vitae hic nam id expedita eveniet, fugit est libero excepturi possimus voluptates accusantium facere? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eveniet pariatur commodi sunt.</p>
+            <p class="lisa-paragraph par2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita veritatis pariatur repellendus ut! Eius, tempore obcaecati deleniti, possimus quos repellat ex libero quo harum reiciendis quasi, optio eum distinctio consequuntur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores architecto minima ea magnam, veritatis eveniet illo quia nobis quas esse assumenda aperiam harum est.</p>
         </div>
     </section>
     <section id="contact-section">
         <div class="transparent-color">
-            <div class="contact-text-container">
+            <div class="contact-text-container home-contact-container logo-name">
                 <h1 class="contact-h1">Contact</h1>
                 <p class="contact-line">Phone: 555-555-5555</p>
                 <p class="contact-line">Email: lisa@gmail.com</p>
@@ -70,20 +78,26 @@
                     <label for="message" class="message-label"></label>
                     <textarea class="home-contact" type="textarea" name="message" id="message" placeholder="Message"></textarea><br>
 
-                    <button type="submit" class="contact-form-button">Send Message</button>
+                    <button type="submit" class="contact-form-button logo-name">Send Message</button>
                 </form>
             </div>
         </div>
     </section>
     <section id="pop-up-section" class="pop-up">
-        <div class = "pop-up-div">
+        <div class = "pop-up-div logo-name">
             <p>Thank you for visiting.</p>
             <p>Send me a message so we can chat!</p>
             <p>I look forward to hearing from you!</p>
-            <button id="the-button">Okay!</button>
+            <button id="the-button" class="logo-name">Okay!</button>
+        </div>
+    </section>
+    <section id="rawpixel-section">
+        <div class="rawpixel">
+            <p class="logo-name pixel">Images Provided by rawpixel.com</p>
         </div>
     </section>
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/d15b89a0ad.js" crossorigin="anonymous"></script>
+    <script src="hamburger.js"></script>
 </body>
 </html>

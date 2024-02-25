@@ -24,8 +24,9 @@ header {
 
 .logo-name {
     font-family: 'Roboto', sans-serif;
-font-family: 'Sacramento', cursive;
-font-family: 'Sanchez', serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Sanchez', serif;
+    font-weight: bold; 
 }
 
 #my-navbar {
@@ -59,19 +60,31 @@ nav .nav-a {
     margin-top: 70px;
     width: 100%; 
     height: 500px;
-    background-color:  hsl(30, 100%, 80%, 50%);
+    background-color: hsl(30, 100%, 80%, 50%);
     display: flex;
 }
 
 .design-text-container {
-    margin-left: 135px;
+    margin-left: 80px;
     margin-right: 110px;
-    padding-top: 9%;
-    color: white;
+    padding-top: 8%;
+    color: black;
+    font-size: 30px;
+    text-align: center; 
     font-family: 'Roboto', sans-serif;
     font-family: 'Sacramento', cursive;
-    font-size: 27px;
-    text-align: center; 
+}
+
+.sofia-regular {
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.cursive {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size: 35px; 
 }
 
 .design-img {
@@ -152,9 +165,11 @@ nav .nav-a {
 }
 
 .message-me {
-    font-size: 20px; 
+    font-size: 35px; 
     color: black; 
     font-weight: bold; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
 }
 
 .contact-form {
@@ -169,7 +184,11 @@ nav .nav-a {
     outline: none; 
     border: 5px solid hsl(0, 100%, 95%); 
     border-radius: 5px; 
-    font-size: 15px; 
+    font-size: 17px; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Sanchez', serif;
+    font-weight: bold; 
 }
 
 #message {
@@ -194,6 +213,10 @@ nav .nav-a {
     font-size: 20px; 
     text-align: center; 
     top: 0; 
+}
+
+.contact-form-button:hover {
+    background-color: hsl(0, 100%, 70%)
 }
 
 /*contact.html section styles*/
@@ -252,6 +275,17 @@ nav .nav-a {
     display: none;
 }
 
+#the-button {
+    background-color: rgba(255, 204, 153);
+    color: black; 
+    border: none; 
+    padding: 5px 10px; 
+}
+
+#the-button:hover {
+    outline: 2px solid black; 
+}
+
 /* services section */
 #services-body {
     background-color: hsl(30, 100%, 80%, 50%);
@@ -264,7 +298,7 @@ nav .nav-a {
 
 .couple-img {
     position: absolute;
-    margin-left: 40px; 
+    left: 40px; 
     top: 150px; 
 }
 
@@ -354,6 +388,14 @@ nav .nav-a {
     margin-top: 800px; 
     margin-bottom: 200px; 
     position: relative; 
+}
+
+.faq-title {
+    font-size: 30px; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Sanchez', serif;
+    font-weight: bold; 
 }
 
 .faq-div {
@@ -457,26 +499,48 @@ nav .nav-a {
     border: none; 
 }
 
+/* rawpixel reference */
+.rawpixel {
+    margin-top: -15px;
+    background-color:  hsl(30, 100%, 80%, 50%);
+    height: 30px; 
+    text-align: center;
+    line-height: 30px;
+    color: black; 
+    font-size: 15px; 
+}
+
+/* hamburger menu */
+#hamburger-menu {
+    background-color: white; 
+    display: block;
+}
+
+.hamburger-nav-ul {
+    display: block; 
+}
+
+
+
 
 /* Media Queries */
 
 @media only screen and (max-width: 600px) {
     /* Design Section Styles! */
    body {
-       margin: 0 auto; 
+       margin: 0 auto;  
    }
    
    #section-design {
        margin-top: 0;
-       width: 78.5%;  
-       height: 50%;
+       width: 100%;  
+       height: 600px;
        background-color:  hsl(30, 100%, 80%, 50%);
        display: flex;
    }
    
    header {
-       width: 55%; 
-       position: fixed;
+       width: 100%;  
    }
    
    #my-navbar {
@@ -489,7 +553,7 @@ nav .nav-a {
    
    .logo i {
        display: block;  
-       margin-left: 5%; 
+       margin-left: 15%; 
        padding-left: 10%; 
        padding-right: 0; 
        position: relative;  
@@ -509,24 +573,31 @@ nav .nav-a {
        z-index: 1; 
        top: 5%; 
        overflow: hidden; 
-       object-fit: contain;
-       width: 108%; 
-       height: 50%; 
+       object-fit: contain; 
+       height: 600px; 
    }
    
    .design-img img {
-       width: 150%; 
+       width: 200%; 
        height: auto;
-       position: absolute;   
+       margin-bottom: 20px;
    }
    
    #topPage {
        display: none; 
    }
+
+   .design-title {
+    margin-bottom: 0px; 
+   }
+
+   .design-info {
+    margin-top: 0px; 
+   }
    
    .design-text-container {
-       margin-top: 80%; 
-       font-size: 20px; 
+       margin-top: 107%; 
+       font-size: 23px; 
        left: 0; 
        position: relative; 
        margin-left: 0; 
@@ -537,6 +608,12 @@ nav .nav-a {
        padding-right: 5%; 
        z-index: 2; 
    }
+
+   /* pop-up  div styles */
+
+   .show {
+    display: none;
+  }
    
        /* meet lisa section styles */
    
@@ -544,7 +621,6 @@ nav .nav-a {
        border: 10px solid hsl(30, 100%, 80%, 50%);
        margin-top: 10%;
        height: 600px;
-       width: 73%;
    }
    
    .meet-lisa h1 {
@@ -555,19 +631,18 @@ nav .nav-a {
    .lisa-paragraph {
        font-size: 13px;
        position: absolute; 
-       left: -130%; 
-       width: 70%; 
+       left: -130%;  
        height: 500px; 
        padding-left: 1%; 
-       padding-right: 1%; 
+       padding-right: 3%; 
    }
    
    .par2 {
-       top: 88%;  
+       top: 110%;  
    }
    
    .par1 {
-       top: 104%; 
+       top: 123%; 
    }
    
    .meet-lisa img {
@@ -583,21 +658,335 @@ nav .nav-a {
        height: 500px; 
        width: 100%;  
    }
-   }
+
+   /* contact section styles  */
+   /* #contact-section {
    
-   /* @media only screen and (min-width: 601px) {
-       body {
+   } */
+
+   #contact-section {
+    margin-top: -3%;
+   }
+
+   .home-contact{
+    width: 350px; 
+    font-size: 18px; 
+   }
+
+  
+
+   /* hamburger menu */
+   .myBurger {
+    background-color:  hsl(30, 100%, 80%); 
+    position: absolute; 
+    top: 67px; 
+    width: 100%;
+    height: 600%; 
+   }
+
+   .hamburger-lis {
+    list-style-type: none;
+    margin: 55px;  
+    font-size: 25px; 
+    text-align: center; 
+    padding-right: 25px; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Sanchez', serif;
+    font-weight: bold; 
+   }
+
+   .hamburger-as {
+    text-decoration: none;
+    color: black; 
+   }
+
+   .hamburger-btn-clicked {
+    color: white; 
+   }
+
+   /* SERVICES */
+   .services-div {
+    width: 360px;
+    margin-bottom: 220px;
+   }
+
+   .services-ul {
+    margin-left: 75px; 
+   }
+
+   .men-img img {
+    width: 300px;
+   }
+
+   .men-img {
+    text-align: center;
+    height: 175px;
+    overflow: hidden;
+    border-bottom: 10px solid white;
+    border-radius: 10px;
+    margin-left: unset;
+   }
+
+   .women-img img {
+    width: 250px; 
+   }
+
+   .women-img {
+    text-align: center;
+    top: 80px;  
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+   }
+
+   .couple-img img {
+    width: 250px; 
+   }
+
+   .couple-img {
+    text-align: center; 
+    top: 555px; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+   }
+
+   .outside-img {
+    display: none; 
+   }
+
+   .services-container {
+    margin-top: 280px; 
+   }
+
+   #service-faq {
+    margin-top: -90px;
+   }
+
+  .faq {
+    margin-left: -40px; 
+    margin-right: -40px;
+  }
+
+  .all-imgs {
+    width: 500px; 
+   }
+
+   .exp-div {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 175px;
+    width: 320px;
+    top: 485px;
+   }
+
+  /* CONTACT */
+  .contact-idx-input {
+    width: 350px; 
+    font-size: 18px;
+  }
+
+  .transparent-color-idx {
+    height: 846px;
+  }
+
+  .contact-section-idx {
+    height: 846px;
+  }
+
+  .contact-text-container {
+    padding-top: 50px;
+  }
+
+  .home-contact-container {
+    padding-top: 0;
+   }
+   }
+
+   @media only screen and (max-width: 389px) {
+     /*---------------- HOME ----------------*/
+
+     /* burger */
+    #nav {
+        margin-top: -20px;
+    }
+
+    .myBurger {
+        top: 60px;
+    }
+
+    .logo i {
+        margin-left: 10%; 
+    }
+
+    /* design section */
+    .design-img img {
+        width: 165%;
+    }
+
+    .design-img {
+        left: -33%;
+    }
+
+    .design-text-container {
+        margin-top: 114%;
+    }
+
+    /* meet lisa */
+    .lisa-paragraph {
+        height: 160px;
+        margin-left: 510px;
+    }
+
+    .par1 {
+        top: 50%;
+        margin-top: 650px;
+    }
+
+    .par2 {
+        margin-top: 370px;
+    }
+
+    /* contact */
+    .contact-h1 {
+        font-size: 30px;
+    }
+
+    .contact-line {
+        margin: 10px 0px; 
+    }
+
+    .message-me {
+        margin: 20px 0px; 
+        font-size: 33px; 
+    }
+
+    .home-contact {
+        width: 330px;
+        font-size: 17px; 
+    }
+
+    .transparent-color {
+        height: 610px;
+    }
+
+    #contact-section {
+        height: 610px;
+    }
+
+    /* rawpixel */
+
+    .pixel {
+        font-size: 16px;
+    }
+
+    /*---------------- SERVICES ----------------*/
+
+    .services-div {
+        width: 345px;
+    }
+
+    .services-ul {
+        margin-left: 35px;
+    }
+
+    #faq-section {
+        height: 700px;
+    }
+
+    /*---------------- CONTACT ----------------*/
+    .contact-section-idx {
+        margin-top: -10px;
+        height: 610px;
+    }
+
+    .transparent-color-idx {
+        height: 610px;
+    }
+
+    .contact-idx{
+        padding: 0;
+    }
+
+    .contact-idx-input {
+        width: 330px;
+        font-size: 17px; 
+    }
+
+/*---------------- FAQ SECTION ----------------*/
+
+#faq-section {
+    margin-top: 90px;
+}
+
+}
+
+@media only screen and (max-width: 390px) {
+   /*---------------- HOME ----------------*/
+
+   /* burger */
+   .myBurger {
+    top: 62px;
+   }
+
+   #nav {
+    margin-top: -15px;
+   }
+
+   .logo i {
+    margin-left: 10%;
+   }
+
+   /* design section */
+   #design-text-container {
+    margin-top: 111%;
+   }
+
+   /* meet lisa */
+    .lisa-paragraph {
+        margin-left: 530px;
+        margin-right: 11px;
+    }
+   .par2 {
+    top: 129%; 
+   }
+
+   .par1 {
+    top: 115%;
+   }
+
+     /* rawpixel */
+
+     .pixel {
+        font-size: 16px;
+    }
+
+/*---------------- SERVICES ----------------*/
+
+    .services-ul {
+        margin-left: 50px;
+    }
+}
+   
+   @media only screen and (min-width: 601px) {
+       /* body {
            background-color: blue; 
-       }
+       } */
    }
    
-   @media only screen and (min-width: 768px) {
-       body {
-           background-color: pink; 
-       }
-   }
+/* IPAD MINI */
+    @media only screen and (min-width: 768px) {
+      
+   } 
    
-   @media only screen and (min-width: 992px) {
+   /* @media only screen and (min-width: 992px) {
        body {
            background-color: red; 
        }
@@ -605,32 +994,16 @@ nav .nav-a {
    
    @media only screen and (min-width: 1200px) {
        body {
-           background-color: white; 
+           background-color: black; 
        }
-   } */
+   }  */
+    
+.hidden {
+    display: none; 
+}
    
    
    
-   
-   
-   /* #my-navbar {
-       width: 100%; 
-   }
-   .nav-ul {
-      width: 100%; 
-   }
-   .logo-name {
-       width: 100%; 
-   }
-   .nav-ul {
-       width: 100%; 
-   }
-   .logo {
-       width: 100%; 
-   }
-   header {
-       width: 100%; 
-   } */
 
 
 
