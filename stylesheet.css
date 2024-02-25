@@ -973,6 +973,34 @@ nav .nav-a {
     .services-ul {
         margin-left: 50px;
     }
+
+/*---------------- SERVICE-FAQ ----------------*/
+    #service-faq {
+        margin-top: 0px; 
+        margin-bottom: 170px;
+    }
+
+    #faq-section {
+        margin-top: -100px; 
+    }
+
+/*---------------- CONTACT-IDX ----------------*/
+    .contact-section-idx {
+        height: 800px;
+    }
+
+    .transparent-color-idx {
+        height: 800px;
+    }
+
+    .contact-text-container {
+        padding-top: 10px;
+    }
+
+/*---------------- FAQ-IDX ----------------*/
+    #faq-query-styling {
+        margin-top: 200px;
+    }
 }
    
    @media only screen and (min-width: 601px) {
