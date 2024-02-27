@@ -522,7 +522,7 @@ nav .nav-a {
 
 
 
-
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
 /* Media Queries */
 
 @media only screen and (max-width: 600px) {
@@ -616,6 +616,10 @@ nav .nav-a {
   }
    
        /* meet lisa section styles */
+
+    #meet-lisa {
+        margin-bottom: 41px; 
+    }
    
    .meet-lisa {
        border: 10px solid hsl(30, 100%, 80%, 50%);
@@ -809,8 +813,8 @@ nav .nav-a {
     padding-top: 0;
    }
    }
-
-   @media only screen and (max-width: 389px) {
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+   @media only screen and (max-width: 376px) {
      /*---------------- HOME ----------------*/
 
      /* burger */
@@ -840,6 +844,10 @@ nav .nav-a {
     }
 
     /* meet lisa */
+    #meet-lisa {
+        margin-bottom: 37px;
+    }
+
     .lisa-paragraph {
         height: 160px;
         margin-left: 510px;
@@ -847,16 +855,17 @@ nav .nav-a {
 
     .par1 {
         top: 50%;
-        margin-top: 650px;
+        margin-top: 200px;
     }
 
     .par2 {
-        margin-top: 370px;
+        margin-top: 240px;
     }
 
     /* contact */
     .contact-h1 {
         font-size: 30px;
+        margin-top: 0px;
     }
 
     .contact-line {
@@ -927,8 +936,8 @@ nav .nav-a {
 }
 
 }
-
-@media only screen and (max-width: 390px) {
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 413px) {
    /*---------------- HOME ----------------*/
 
    /* burger */
@@ -950,6 +959,11 @@ nav .nav-a {
    }
 
    /* meet lisa */
+
+    #meet-lisa {
+        margin-bottom: 39px;
+    }
+
     .lisa-paragraph {
         margin-left: 530px;
         margin-right: 11px;
