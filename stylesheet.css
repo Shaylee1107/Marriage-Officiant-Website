@@ -112,9 +112,15 @@ nav .nav-a {
     font-size: 25px;
 }
 
+#meet-lisa-paras {
+    overflow: hidden;
+    padding: 0 10px;
+}
+
 .lisa-paragraph {
-    margin-left: 550px;
     font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .meet-lisa img {
@@ -522,8 +528,18 @@ nav .nav-a {
 
 
 
-
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
 /* Media Queries */
+
+/* IPHONE 14 MAX PRO WIDTH 430 */
+@media only screen and (max-width: 431px) {
+    #design-text-container {
+        margin-top: 100%; 
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 @media only screen and (max-width: 600px) {
     /* Design Section Styles! */
@@ -616,6 +632,10 @@ nav .nav-a {
   }
    
        /* meet lisa section styles */
+
+    #meet-lisa {
+        margin-bottom: 41px; 
+    }
    
    .meet-lisa {
        border: 10px solid hsl(30, 100%, 80%, 50%);
@@ -627,22 +647,20 @@ nav .nav-a {
        text-align: center;
        font-size: 25px;
    }
+
+   #meet-lisa-paras{
+
+   }
    
    .lisa-paragraph {
        font-size: 13px;
-       position: absolute; 
-       left: -130%;  
-       height: 500px; 
-       padding-left: 1%; 
-       padding-right: 3%; 
    }
    
    .par2 {
-       top: 110%;  
    }
    
    .par1 {
-       top: 123%; 
+    margin-top: 5px;
    }
    
    .meet-lisa img {
@@ -809,8 +827,8 @@ nav .nav-a {
     padding-top: 0;
    }
    }
-
-   @media only screen and (max-width: 389px) {
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+   @media only screen and (max-width: 376px) {
      /*---------------- HOME ----------------*/
 
      /* burger */
@@ -840,23 +858,23 @@ nav .nav-a {
     }
 
     /* meet lisa */
+    #meet-lisa {
+        margin-bottom: 37px;
+    }
+
     .lisa-paragraph {
-        height: 160px;
-        margin-left: 510px;
     }
 
     .par1 {
-        top: 50%;
-        margin-top: 650px;
     }
 
     .par2 {
-        margin-top: 370px;
     }
 
     /* contact */
     .contact-h1 {
         font-size: 30px;
+        margin-top: 0px;
     }
 
     .contact-line {
@@ -927,8 +945,8 @@ nav .nav-a {
 }
 
 }
-
-@media only screen and (max-width: 390px) {
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 391px) {
    /*---------------- HOME ----------------*/
 
    /* burger */
@@ -950,16 +968,17 @@ nav .nav-a {
    }
 
    /* meet lisa */
+
+    #meet-lisa {
+        margin-bottom: 39px;
+    }
+
     .lisa-paragraph {
-        margin-left: 530px;
-        margin-right: 11px;
     }
    .par2 {
-    top: 129%; 
    }
 
    .par1 {
-    top: 115%;
    }
 
      /* rawpixel */
@@ -973,7 +992,38 @@ nav .nav-a {
     .services-ul {
         margin-left: 50px;
     }
+
+/*---------------- SERVICE-FAQ ----------------*/
+    #service-faq {
+        margin-top: 0px; 
+        margin-bottom: 170px;
+    }
+
+    #faq-section {
+        margin-top: -100px; 
+    }
+
+/*---------------- CONTACT-IDX ----------------*/
+    .contact-section-idx {
+        height: 800px;
+    }
+
+    .transparent-color-idx {
+        height: 800px;
+    }
+
+    .contact-text-container {
+        padding-top: 10px;
+    }
+
+/*---------------- FAQ-IDX ----------------*/
+    #faq-query-styling {
+        margin-top: 200px;
+    }
 }
+
+
+
    
    @media only screen and (min-width: 601px) {
        /* body {
