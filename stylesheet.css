@@ -112,9 +112,15 @@ nav .nav-a {
     font-size: 25px;
 }
 
+#meet-lisa-paras {
+    overflow: hidden;
+    padding: 0 10px;
+}
+
 .lisa-paragraph {
-    margin-left: 550px;
     font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .meet-lisa img {
@@ -641,22 +647,20 @@ nav .nav-a {
        text-align: center;
        font-size: 25px;
    }
+
+   #meet-lisa-paras{
+
+   }
    
    .lisa-paragraph {
        font-size: 13px;
-       position: absolute; 
-       left: -130%;  
-       height: 500px; 
-       padding-left: 1%; 
-       padding-right: 3%; 
    }
    
    .par2 {
-       top: 110%;  
    }
    
    .par1 {
-       top: 123%; 
+    margin-top: 5px;
    }
    
    .meet-lisa img {
@@ -859,17 +863,12 @@ nav .nav-a {
     }
 
     .lisa-paragraph {
-        height: 160px;
-        margin-left: 510px;
     }
 
     .par1 {
-        top: 50%;
-        margin-top: 200px;
     }
 
     .par2 {
-        margin-top: 240px;
     }
 
     /* contact */
@@ -975,15 +974,11 @@ nav .nav-a {
     }
 
     .lisa-paragraph {
-        margin-left: 530px;
-        margin-right: 11px;
     }
    .par2 {
-    top: 129%; 
    }
 
    .par1 {
-    top: 115%;
    }
 
      /* rawpixel */
