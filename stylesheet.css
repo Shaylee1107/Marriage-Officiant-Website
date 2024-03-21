@@ -1085,9 +1085,6 @@ nav .nav-a {
    } */
    
    @media only screen and (min-width: 1200px) {
-       /* body {
-           background-color: black; 
-       } */
        .nav-li {
         font-size: 23px;
         margin: 0 50px;
@@ -1099,6 +1096,17 @@ nav .nav-a {
 
       .logo h1 {
         width: 300px;
+      }
+
+      .design-title {
+        margin-top: 37px;
+        margin-bottom: 37px;
+      }
+
+      .design-text-container{
+        margin-top: -150px;
+        margin-left: 70px;
+        margin-right: 0;
       }
    }  
     
