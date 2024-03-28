@@ -4,7 +4,7 @@ header {
     background-color: white;
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 99999;
 }
 
 .logo i {
@@ -1057,6 +1057,7 @@ nav .nav-a {
       #design-text-container {
         z-index: 9999;
         padding-top: 280px;
+        margin-left: 0;
       }
 
       .design-img img {
@@ -1071,10 +1072,25 @@ nav .nav-a {
       .design-title {
         margin-bottom: 0px; 
         margin-top: 80px;
+        margin-left: -35px;
       }
 
       .design-info {
         margin-top: 0px; 
+      }
+
+      .meet-lisa img {
+        width: 400px;
+        float:  none;
+      }
+
+      .meet-lisa{
+        text-align: center;
+        height: auto;
+      }
+
+      .lisa-paragraph{
+        text-align: left;
       }
    } 
 /*    
@@ -1101,13 +1117,25 @@ nav .nav-a {
       .design-title {
         margin-top: 37px;
         margin-bottom: 37px;
+        margin-left: 0;
       }
 
-      .design-text-container{
+      #design-text-container{
         margin-top: -150px;
         margin-left: 70px;
         margin-right: 0;
       }
+
+      .meet-lisa {
+        text-align: left;
+        height: 500px;
+      }
+
+      .meet-lisa img {
+        float: left;
+        width: 500px;
+      }
+
    }  
     
 .hidden {
