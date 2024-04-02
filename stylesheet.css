@@ -1100,6 +1100,18 @@ nav .nav-a {
       .contact-text-container{
         padding-top: 30px;
       }
+
+      .home-contact{
+        height: 40px; 
+      }
+
+      .contact-h1 {
+        font-size: 45px; 
+      }
+
+      .contact-line{
+        font-size: 25px;
+      }
    } 
 /*    
     @media only screen and (min-width: 992px) {
@@ -1154,6 +1166,18 @@ nav .nav-a {
 
       .contact-text-container{
         padding-top: 10px;
+      }
+
+      .home-contact{
+        height: 30px; 
+      }
+
+      .contact-h1 {
+        font-size: 35px; 
+      }
+
+      .contact-line{
+        font-size: 20px;
       }
 
    }  
