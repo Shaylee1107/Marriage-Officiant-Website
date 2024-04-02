@@ -1045,10 +1045,6 @@ nav .nav-a {
         font-size: 27px;
       }
 
-
-      .nav-ul {
-      }
-
       .nav-li {
         font-size: 22px;
         margin: 0 16px;
@@ -1086,10 +1082,23 @@ nav .nav-a {
       .meet-lisa{
         text-align: center;
         height: auto;
+        margin-bottom: 20px;
       }
 
       .lisa-paragraph{
         text-align: left;
+      }
+
+      #contact-section{
+        height: 900px;
+      }
+
+      .transparent-color{
+        height: 900px;
+      }
+
+      .contact-text-container{
+        padding-top: 30px;
       }
    } 
 /*    
@@ -1133,6 +1142,18 @@ nav .nav-a {
       .meet-lisa img {
         float: left;
         width: 500px;
+      }
+
+      #contact-section{
+        height: 700px;
+      }
+
+      .transparent-color{
+        height: 700px;
+      }
+
+      .contact-text-container{
+        padding-top: 10px;
       }
 
    }  
