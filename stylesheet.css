@@ -1056,8 +1056,7 @@ nav .nav-a {
 
       #design-text-container {
         z-index: 9999;
-        padding-top: 280px;
-        margin-left: 0;
+        padding-top: 300px;
       }
 
       .design-img img {
@@ -1070,7 +1069,7 @@ nav .nav-a {
       }
 
       .design-title {
-        margin-bottom: 0px; 
+        margin-bottom: -15px;
         margin-top: 80px;
         margin-left: -35px;
       }
