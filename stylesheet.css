@@ -1116,6 +1116,34 @@ nav .nav-a {
       .contact-line{
         font-size: 25px;
       }
+      /* SERVICES */
+      .services-container{
+        margin-top: 280px;
+      }
+
+      .services-div{
+        margin-bottom: 300px;
+      }
+
+      .women-img img{
+        width: 300px;
+      }
+
+      .couple-img img {
+        width: 300px;
+      }
+
+      .couple-img {
+        top: 100px; 
+      }
+
+      .men-img{
+        top: 503px;
+      }
+
+      .men-img img {
+        width: 300px; 
+      }
    } 
 /*    
     @media only screen and (min-width: 992px) {
@@ -1186,6 +1214,31 @@ nav .nav-a {
 
       .contact-line{
         font-size: 20px;
+      }
+
+      /* SERVICES */
+      .services-container{
+        margin-top: 0;
+      }
+
+      .services-div{
+        margin-bottom: 50px;
+      }
+
+      .women-img img{
+        width: 350px;
+      }
+
+      .couple-img img {
+        width: 350px;
+      }
+
+      .men-img{
+        top: 550px;
+      }
+
+      .men-img img {
+        width: 400px; 
       }
 
    }  
