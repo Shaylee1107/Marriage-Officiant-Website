@@ -1033,6 +1033,10 @@ nav .nav-a {
    
 /* IPAD MINI */
     @media only screen and (min-width: 767px) {
+        .pop-up-div {
+            display: none;
+        }
+
       .logo {
         width: 305px;
       }
@@ -1121,6 +1125,10 @@ nav .nav-a {
    } */
    
    @media only screen and (min-width: 1200px) {
+
+    .pop-up-div{
+        display: block;
+    }
        .nav-li {
         font-size: 23px;
         margin: 0 50px;
