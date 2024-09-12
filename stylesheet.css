@@ -1122,15 +1122,17 @@ nav .nav-a {
       }
 
       .services-div{
-        margin-bottom: 300px;
+        margin-bottom: 200px;
       }
 
       .women-img img{
         width: 300px;
+        margin-top: 403px;
       }
 
       .couple-img img {
         width: 300px;
+        margin-top: 840px;
       }
 
       .couple-img {
@@ -1143,6 +1145,10 @@ nav .nav-a {
 
       .men-img img {
         width: 300px; 
+      }
+
+      .outside-img img {
+        margin-top: 400px; 
       }
    } 
 /*    
