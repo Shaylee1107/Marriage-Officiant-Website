@@ -12,7 +12,6 @@ const myDiv = document.createElement("div");
 
 
 hamburger.addEventListener('click', function(){
-    console.log('clicked');
     myDiv.classList.add('myBurger');
   
     const nav = document.createElement("nav");
@@ -46,14 +45,12 @@ hamburger.addEventListener('click', function(){
 
     function toggleHidden() {
         if(myDiv.hasAttribute('name') === true){
-            console.log('present!')
             myDiv.classList.add('hidden')
             myDiv.removeAttribute('name');
 
             document.getElementById("myDiv").removeChild(document.getElementById("nav"));
 
         } else {
-            console.log('no present!')
             myDiv.setAttribute('name', 'present');
             myDiv.classList.remove('hidden');
 
@@ -86,22 +83,18 @@ hamburger.addEventListener('click', function(){
             ul.append(faqLi);
 
             homeA.addEventListener('touchstart', function(){
-                console.log('button clicked');
                 homeA.classList.add('hamburger-btn-clicked');
             });
 
             servicesA.addEventListener('touchstart', function(){
-                console.log('button clicked');
                 servicesA.classList.add('hamburger-btn-clicked');
             });
 
             contactA.addEventListener('touchstart', function(){
-                console.log('button clicked');
                 contactA.classList.add('hamburger-btn-clicked');
             });
 
             faqA.addEventListener('touchstart', function(){
-                console.log('button clicked');
                 faqA.classList.add('hamburger-btn-clicked');
             });
         }
