@@ -1233,10 +1233,12 @@ nav .nav-a {
 
       .women-img img{
         width: 350px;
+        margin-top: 0px; 
       }
 
       .couple-img img {
         width: 350px;
+        margin-top: 0px; 
       }
 
       .men-img{
@@ -1245,6 +1247,11 @@ nav .nav-a {
 
       .men-img img {
         width: 400px; 
+        margin-top: 0px; 
+      }
+
+      .outside-img img {
+        margin-top: 0px;
       }
 
    }  
