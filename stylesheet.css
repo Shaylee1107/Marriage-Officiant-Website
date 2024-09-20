@@ -551,7 +551,6 @@ nav .nav-a {
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 
-
 @media only screen and (max-width: 600px) {
     /* Design Section Styles! */
    body {
@@ -658,16 +657,9 @@ nav .nav-a {
        text-align: center;
        font-size: 25px;
    }
-
-   #meet-lisa-paras{
-
-   }
    
    .lisa-paragraph {
        font-size: 13px;
-   }
-   
-   .par2 {
    }
    
    .par1 {
@@ -695,6 +687,11 @@ nav .nav-a {
 
    #contact-section {
     margin-top: -3%;
+    height: 800px;
+   }
+
+   .transparent-color {
+    height: 800px; 
    }
 
    .home-contact{
@@ -873,15 +870,6 @@ nav .nav-a {
         margin-bottom: 37px;
     }
 
-    .lisa-paragraph {
-    }
-
-    .par1 {
-    }
-
-    .par2 {
-    }
-
     /* contact */
     .contact-h1 {
         font-size: 30px;
@@ -903,11 +891,15 @@ nav .nav-a {
     }
 
     .transparent-color {
-        height: 610px;
+        height: 720px;
     }
 
     #contact-section {
-        height: 610px;
+        height: 720px;
+    }
+
+    .form-label{
+        font-size: 17px;
     }
 
     /* rawpixel */
